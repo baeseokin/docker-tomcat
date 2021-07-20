@@ -7,4 +7,5 @@ services:
         ports:
             - "8080:8080"
         volumes:
-            -  ./webapps:/usr/local/tomcat/webapps       
+            - ./webapps:/usr/local/tomcat/webapps
+            - ./logs:/usr/local/tomcat/logs
